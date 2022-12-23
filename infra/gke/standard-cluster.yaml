@@ -52,7 +52,7 @@ spec:
       - tagone
       - tagtwo
     preemptible: false
-    imageType: "COS_CONTAINERD"
+    imageType: COS_CONTAINERD
     oauthScopes:
       - "https://www.googleapis.com/auth/logging.write"
       - "https://www.googleapis.com/auth/monitoring"
