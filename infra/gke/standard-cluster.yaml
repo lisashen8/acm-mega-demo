@@ -24,7 +24,7 @@ metadata:
   namespace: config-control
 spec:
   description: ASM standard cluster with custom nodepool
-  initialNodeCount: 3
+  initialNodeCount: 4
   location: us-west1
   #nodeLocations:
   #  - us-west1-a
