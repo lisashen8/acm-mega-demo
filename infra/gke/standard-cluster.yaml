@@ -48,7 +48,7 @@ spec:
     machineType: e2-standard-16
     diskSizeGb: 100
     diskType: pd-standard
-    preemptible: false
+    preemptible: "false"
     imageType: "COS_CONTAINERD" 
     oauthScopes:
       - "https://www.googleapis.com/auth/logging.write"
