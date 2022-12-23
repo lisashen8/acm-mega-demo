@@ -110,4 +110,4 @@ apiVersion: pubsub.cnrm.cloud.google.com/v1beta1
 kind: PubSubTopic
 metadata:
   name: sample-pubsub
-  #namespace: config-control
+  namespace: config-control
