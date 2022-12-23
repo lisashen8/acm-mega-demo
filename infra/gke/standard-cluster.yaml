@@ -24,11 +24,11 @@ metadata:
   namespace: config-control
 spec:
   description: ASM standard cluster with custom nodepool
-  initialNodeCount: 4
+  initialNodeCount: 3
   location: us-west1
-  nodeLocations:
-    - us-west1-a
-    - us-west1-c
+  #nodeLocations:
+  #  - us-west1-a
+  #  - us-west1-c
   releaseChannel:
     channel: REGULAR
 
