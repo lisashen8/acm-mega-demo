@@ -110,7 +110,7 @@ metadata:
 spec:
   location: global
   authority:
-    issuer: https://container.googleapis.com/v1/projects/averk-cert/locations/us-central1-a/clusters/asm-acm-cluster-1
+    issuer: https://container.googleapis.com/v1/projects/auverk-cert/locations/us-central1-a/clusters/asm-acm-cluster-1
   endpoint:
     gkeCluster:
       resourceRef:
