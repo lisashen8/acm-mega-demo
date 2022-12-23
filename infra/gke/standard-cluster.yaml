@@ -109,5 +109,5 @@ spec:
 apiVersion: pubsub.cnrm.cloud.google.com/v1beta1
 kind: PubSubTopic
 metadata:
-  name: containercluster-dep-vpcnative
+  name: sample-pubsub
   namespace: config-control
