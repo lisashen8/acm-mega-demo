@@ -88,6 +88,7 @@ metadata:
     createdBy: kcc
     target-audience: demo
   name: asm-acm-cluster-1
+  namespace: config-control
 spec:
   description: ASM-ACM cluster
   location: us-central1
