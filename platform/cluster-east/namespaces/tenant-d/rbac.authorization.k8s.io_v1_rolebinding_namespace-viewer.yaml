@@ -20,6 +20,8 @@ metadata:
     owner: platform-team
   name: namespace-viewer
   namespace: tenant-d
+  annotations:
+    configsync.gke.io/cluster-name-selector: cluster-east
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole

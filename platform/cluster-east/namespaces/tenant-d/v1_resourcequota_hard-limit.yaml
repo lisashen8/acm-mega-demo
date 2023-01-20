@@ -20,6 +20,8 @@ metadata:
     owner: platform-team
   name: hard-limit
   namespace: tenant-d
+  annotations:
+    configsync.gke.io/cluster-name-selector: cluster-east
 spec:
   hard:
     cpu: "1000"
