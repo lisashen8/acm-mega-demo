@@ -17,6 +17,9 @@ apiVersion: configsync.gke.io/v1beta1
 kind: RepoSync
 metadata:
   name: init-repo-sync
+  namespace: tenant-d
+  annotations:
+    configsync.gke.io/cluster-name-selector: cluster-east
 spec:
   override:
     enableShellInRendering: true
