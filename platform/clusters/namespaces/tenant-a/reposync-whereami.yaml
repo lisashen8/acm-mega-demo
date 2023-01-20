@@ -7,7 +7,7 @@ spec:
   sourceFormat: unstructured
   sourceType: helm
   helm:
-    repo: oci://northamerica-northeast1-docker.pkg.dev/mabenoit-cs-ui-blog/charts
+    repo: oci://us-docker.pkg.dev/google-samples/charts
     chart: whereami
     releaseName: whereami
     auth: none
