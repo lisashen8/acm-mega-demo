@@ -3,6 +3,9 @@ kind: RepoSync
 metadata:
   name: repo-sync
   namespace: tenant-a
+  annotations:
+    configsync.gke.io/cluster-name-selector: cluster-west
+
 spec:
   sourceFormat: unstructured
   sourceType: helm
