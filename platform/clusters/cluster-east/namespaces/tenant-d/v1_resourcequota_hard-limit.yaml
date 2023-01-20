@@ -12,19 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # [START anthosconfig_multi_cluster_access_and_quota_cluster_east_tenant_a_resource_quota]
-apiVersion: v1
-kind: ResourceQuota
-metadata:
-  labels:
-    cluster: cluster-east
-    owner: platform-team
-  name: hard-limit
-  namespace: tenant-d
-  annotations:
-    configsync.gke.io/cluster-name-selector: cluster-east
-spec:
-  hard:
-    cpu: "1000"
-    memory: 100Gi
-    pods: "100"
+# apiVersion: v1
+# kind: ResourceQuota
+# metadata:
+#   labels:
+#     cluster: cluster-east
+#     owner: platform-team
+#   name: hard-limit
+#   namespace: tenant-d
+#   annotations:
+#     configsync.gke.io/cluster-name-selector: cluster-east
+# spec:
+#   hard:
+#     cpu: "1000"
+#     memory: 100Gi
+#     pods: "100"
 # [END anthosconfig_multi_cluster_access_and_quota_cluster_east_tenant_a_resource_quota]

@@ -12,25 +12,25 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # [START anthosconfig_multi_cluster_access_and_quota_cluster_east_tenant_a_role_binding]
-apiVersion: rbac.authorization.k8s.io/v1
-kind: RoleBinding
-metadata:
-  labels:
-    cluster: cluster-east
-    owner: platform-team
-  name: namespace-viewer
-  namespace: tenant-d
-  annotations:
-    configsync.gke.io/cluster-name-selector: cluster-east
-roleRef:
-  apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: view
-subjects:
-- apiGroup: rbac.authorization.k8s.io
-  kind: User
-  name: user-1
-- apiGroup: rbac.authorization.k8s.io
-  kind: User
-  name: user-2
+# apiVersion: rbac.authorization.k8s.io/v1
+# kind: RoleBinding
+# metadata:
+#   labels:
+#     cluster: cluster-east
+#     owner: platform-team
+#   name: namespace-viewer
+#   namespace: tenant-d
+#   annotations:
+#     configsync.gke.io/cluster-name-selector: cluster-east
+# roleRef:
+#   apiGroup: rbac.authorization.k8s.io
+#   kind: ClusterRole
+#   name: view
+# subjects:
+# - apiGroup: rbac.authorization.k8s.io
+#   kind: User
+#   name: user-1
+# - apiGroup: rbac.authorization.k8s.io
+#   kind: User
+#   name: user-2
 # [END anthosconfig_multi_cluster_access_and_quota_cluster_east_tenant_a_role_binding]
