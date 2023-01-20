@@ -1,0 +1,13 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RepoSync
+metadata:
+  name: repo-sync
+  namespace: tenant-a
+spec:
+  sourceFormat: unstructured
+  sourceType: helm
+  helm:
+    repo: oci://northamerica-northeast1-docker.pkg.dev/mabenoit-cs-ui-blog/charts
+    chart: whereami
+    releaseName: whereami
+    auth: none
