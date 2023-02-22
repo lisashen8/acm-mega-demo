@@ -12,13 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # [START anthosconfig_multi_cluster_access_and_quota_cluster_east_tenant_d_namespace]
-apiVersion: v1
-kind: Namespace
-metadata:
-  labels:
-    cluster: cluster-east
-    owner: platform-team
-  name: tenant-d
-  annotations:
-    configsync.gke.io/cluster-name-selector: cluster-east
+#Lisa: Uncomment line 16-24 for demo
+# apiVersion: v1
+# kind: Namespace
+# metadata:
+# labels:
+#   cluster: cluster-east
+#   owner: platform-team
+#   name: tenant-d
+#  annotations:
+#   configsync.gke.io/cluster-name-selector: cluster-east
 # [END anthosconfig_multi_cluster_access_and_quota_cluster_east_tenant_d_namespace]
