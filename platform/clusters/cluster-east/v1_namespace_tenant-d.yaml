@@ -16,10 +16,10 @@
 # apiVersion: v1
 # kind: Namespace
 # metadata:
-# labels:
-#   cluster: cluster-east
-#   owner: platform-team
+#   labels:
+#     cluster: cluster-east
+#     owner: platform-team
 #   name: tenant-d
-#  annotations:
-#   configsync.gke.io/cluster-name-selector: cluster-east
+#   annotations:
+#     configsync.gke.io/cluster-name-selector: cluster-east
 # [END anthosconfig_multi_cluster_access_and_quota_cluster_east_tenant_d_namespace]
